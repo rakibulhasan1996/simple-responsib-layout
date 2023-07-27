@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from wit flex</title>
+    <style>
+        nav{
+            display:flex;
+            justify-content: space-between;
+            
+        }
+        nav a{
+            text-decoration: none;
+            color: magenta;
+            font-size: 30px;
+        }
+        .form-container{
+            display: flex;
+            border: 2px solid gold ;
+            justify-content: center;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            border: 5px solid orchid;
+            width: 50%;
+            margin: 5px;
+            padding: 5px;
+
+        }
+        .login-form input{
+            margin-top: 20px;
+        }
+        body section form input{
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="container">
+        <div><a href="">Home</a>
+            <a href="">Profile</a>
+            <a href=""> Blog</a>
+            <a href="">About</a></div>
+        <a href="">Login</a>
+    </nav>
+    <section class="form-container">
+        <form action="" class="login-form">
+            <h1>Please login</h1>
+            <input type="text" placeholder="Enter your Name" required>
+            <input type="email" name="" id="" placeholder="Enter your email" required>
+            <input type="password" name="" id="" placeholder="Enter your password" required>
+            <input type="button" value="Login" required>
+        </form>
+    </section>
+    
+</body>
+</html>

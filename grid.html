@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greed layout</title>
+    <style>
+        .container{
+            /* display: flex; */
+            display: grid;
+            /* grid-template-columns: 200px 200px 200px 200px; */
+            /* Another method */
+            /* grid-template-columns: repeat(2,80px)100px 100px; */
+            /* grid-template-columns: repeat(4, 1fr) ; 4 টা হবে এবং প্রতিটি   নিজেদের মধ্যে সামান ভাগে ভাগ করে নিবে */
+            /* grid-template-columns: repeat(4, 1fr)2fr 3fr; 2fr and 3fr min 2-times(২গুন) or 3-times(৩ গুন)  */
+            grid-template-columns: 200px 200px auto;
+            /* justify-content: end; */
+            /* justify-content: center; */
+            /* justify-content:space-between; */
+            /* justify-content: space-evenly; */
+            column-gap: 5px;
+            row-gap: 10px;
+        }
+        .itm{
+            border: 1px solid green;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Two dimentional geada layout</h2>
+    <div class=" container">
+        <div class="itm">itme-1</div>
+        <div class="itm">itme-2</div>
+        <div class="itm">itme-3</div>
+        <div class="itm">itme-4</div>
+        <div class="itm">itme-5</div>
+        <div class="itm">itme-6</div>
+        <div class="itm">itme-7</div>
+        <div class="itm">itme-8</div>
+        <div class="itm">itme-9</div>
+        <div class="itm">itme-10</div>
+        <div class="itm">itme-11</div>
+        <div class="itm">itme-12</div>
+        <div class="itm">itme-13</div>
+        <div class="itm">itme-14</div>
+        <div class="itm">itme-15</div>
+        <div class="itm">itme-16</div>
+        <div class="itm">itme-17</div>
+        <div class="itm">itme-18</div>
+        <div class="itm">itme-19</div>
+        <div class="itm">itme-20</div> 
+    </div>
+    
+</body>
+</html>
